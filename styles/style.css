@@ -96,8 +96,8 @@ main{
 .section-1{
     display: flex;
     align-items: center;
-    margin: 100px 150px;
-    gap: 50px;
+    margin: 100px 150px 100px 250px;
+    gap: 60px;
 }
 
 .section-1-img{
@@ -140,6 +140,15 @@ main{
 }
 /*--------------section two-------------- */
 
+#varticle-line{
+    background-color: var(--yellow);
+    width: 5px;
+    height: 100px;
+    position: relative;
+    top:130px;
+    right: 0px;
+    
+}
 .section-2{
     display: flex;
     background-color: #ffffff;
@@ -161,8 +170,10 @@ main{
 }
 
 .section-2-title-1{
-    font-size: 45px;
+    font-size: 40px;
     color: var(--black);
+    margin-left: 20px;
+    
 }
 .section-2-title{
     font-size: 20px;
@@ -283,7 +294,7 @@ main{
 .section-six{
     display: flex;
     justify-content: space-around;
-    margin: 10px 120px 100px 120px;
+    margin: 50px 120px 100px 120px;
     
 }
 /* ---------------section-seven----------------- */
